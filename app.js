@@ -19,21 +19,3 @@ if(chute == numeroSecreto) {
     alert('Você errou :(')
 }
  
-// Desafios:
-
-// alert("Boas vindas ao nosso site!");
-// let nome = "Lua";
-// let idade = 25;
-// let numeroDevendas = 50;
-// let saldoDisponivel = 1000;
-// alert("Erro! Preencha todos os campos");
-// let mensagemDeErro = "Erro! Preencha todos os campos";
-// alert (mensagemDeErro);
-
-// let nomeUsuario = prompt ("Qual é o seu nome?");
-// let idade = prompt ("digite a sua idade:");
-
-
-// if(idade >= 18) {
-//     console.log("Pode tirar a habilitação!");
-// }

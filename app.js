@@ -1,5 +1,5 @@
 alert("Boas vindas ao jogo do número secreto");
-let numeroSecreto = 2;
+let numeroSecreto = 5;
 
 // um console.log para verificar o valor de "chute" após a entrada do usuário
 // console.log('Valor do chute:', chute);
@@ -16,6 +16,10 @@ if(chute == numeroSecreto) {
     // Adicione um console.log para verificar o valor de "numeroSecreto" quando o jogador erra
     // console.log('Valor do número secreto:', numeroSecreto);
     // alert('O número secreto era ' + numeroSecreto);
-    alert('Você errou :(')
+    if (chute > numeroSecreto) {
+        alert (`O número secreto é menor que ${chute}`);
+    } else {
+        alert (`O número secreto é maior que ${chute}`);
+    }
 }
  

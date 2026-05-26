@@ -10,7 +10,7 @@ let chute = prompt('Escolha um número entre 1 e 10');
 // console.log('Resultado da comparação:', chute == numeroSecreto);
 
 //se chute for igual ao numero secreto
-if(chute == numeroSecreto) {
+if (chute == numeroSecreto) {
     alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto}`);
 } else {
     // Adicione um console.log para verificar o valor de "numeroSecreto" quando o jogador erra
@@ -22,4 +22,3 @@ if(chute == numeroSecreto) {
         alert (`O número secreto é maior que ${chute}`);
     }
 }
- 

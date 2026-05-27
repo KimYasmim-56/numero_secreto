@@ -56,3 +56,38 @@
 // nomeDoUsuario = prompt('insira o seu nome');
 // alert(`Boas-Vindas ${nomeDoUsuario}`);
 //------------------------------------------
+// Desafio
+// 1.Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+
+// let contador = 1;
+// while (contador <= 10) {
+//     console.log(contador);
+//         contador++;
+// }
+
+// 2.Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+
+// let contador = 10;
+// while (contador>= 0) {
+//     console.log(contador);
+//         contador--
+// }
+
+// 3.Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+
+// let nMax = prompt('Digite um número para a contagem regressiva:');
+
+// while (nMax >= 0) {
+//     console.log(nMax);
+//     nMax--;
+// }
+
+// 4.Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+
+// let numeroMax = prompt('Digite um número para contar até o 0:');
+// let contador = 0;
+
+// while (contador <= numeroMax) {
+//     console.log(contador);
+//     contador++;
+// }

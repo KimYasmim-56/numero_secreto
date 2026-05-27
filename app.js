@@ -5,8 +5,8 @@ let numeroSecreto = 5;
 // console.log('Valor do chute:', chute);
 
 console.log(numeroSecreto);
-let chute
-
+let chute;
+let tentativas = 1;
 // um console.log para verificar a comparação entre "chute" e "numeroSecreto"
 // console.log('Resultado da comparação:', chute == numeroSecreto);
 
@@ -15,7 +15,9 @@ while (chute != numeroSecreto) {
     chute = prompt('Escolha um número entre 1 e 10');
     //se chute for igual ao numero secreto
     if (chute == numeroSecreto) {
-        alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto}`);
+        //pq colocar "com ${tentativas} tentativas`);" na linha 18?
+        //Os valores das variáveis substituem aquele ${} automaticamente. É uma forma bem prática de misturar texto com valores de variáveis.
+        alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto} com ${tentativas} tentativas`);
     } else {
     // Adicione um console.log para verificar o valor de "numeroSecreto" quando o jogador erra
     // console.log('Valor do número secreto:', numeroSecreto);
@@ -25,5 +27,8 @@ while (chute != numeroSecreto) {
         } else {
             alert (`O número secreto é maior que ${chute}`);
         }
+        //aqui seria, quando a gente sabe q a pessoa errou
+        //tentativas = tentativas + 1;
+        tentativas++
     }
 }

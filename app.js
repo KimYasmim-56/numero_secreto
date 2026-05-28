@@ -15,9 +15,12 @@ while (chute != numeroSecreto) {
     chute = prompt('Escolha um número entre 1 e 10');
     //se chute for igual ao numero secreto
     if (chute == numeroSecreto) {
+
         //pq colocar "com ${tentativas} tentativas`);" na linha 18?
         //Os valores das variáveis substituem aquele ${} automaticamente. É uma forma bem prática de misturar texto com valores de variáveis.
-        alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto} com ${tentativas} tentativas`);
+
+        // para que o while pare, não continue, há uma solução
+        break;
     } else {
     // Adicione um console.log para verificar o valor de "numeroSecreto" quando o jogador erra
     // console.log('Valor do número secreto:', numeroSecreto);
@@ -31,4 +34,10 @@ while (chute != numeroSecreto) {
         //tentativas = tentativas + 1;
         tentativas++
     }
+}
+
+if(tentativas > 1) {
+    alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto} com ${tentativas} tentativas`);
+}else {
+    alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto} com ${tentativas} tentativa`);
 }

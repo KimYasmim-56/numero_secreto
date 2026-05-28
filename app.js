@@ -16,8 +16,7 @@ while (chute != numeroSecreto) {
     //se chute for igual ao numero secreto
     if (chute == numeroSecreto) {
 
-        //pq colocar "com ${tentativas} tentativas`);" na linha 18?
-        //Os valores das variáveis substituem aquele ${} automaticamente. É uma forma bem prática de misturar texto com valores de variáveis.
+       
 
         // para que o while pare, não continue, há uma solução
         break;
@@ -35,7 +34,8 @@ while (chute != numeroSecreto) {
         tentativas++
     }
 }
-
+ //pq colocar "com ${tentativas} tentativas`);" na linha ?
+        //Os valores das variáveis substituem aquele ${} automaticamente. É uma forma bem prática de misturar texto com valores de variáveis.
 if(tentativas > 1) {
     alert(`Isso aí! Você descobriu o nùmero secreto ${numeroSecreto} com ${tentativas} tentativas`);
 }else {
